@@ -151,18 +151,7 @@ Create a local VM and implement a mechanism to monitor resource usage. Configure
       ./monitor.sh
    ```
 
-4. OCI CLI Setup (One-time on Local VM)
-    ```bash
-      oci setup config
-   ```
-   Upload the generated public key to OCI Console → User → API Keys
-
-   Verify 
-   ```bash
-      oci os ns get
-   ```
-
-5. Script to Launch OCI Compute Instance
+4. Script to Launch OCI Compute Instance
    ```bash
    #!/bin/bash
 
