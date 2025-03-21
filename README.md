@@ -6,9 +6,14 @@
 
 Create a local VM and implement a mechanism to monitor resource usage. Configure it to auto-scale to a public cloud (e.g., GCP, AWS, or Azure) when resource usage exceeds 75%.
 
+## Flow 
+![Flow](./images/m23csa508_vcc_assignment.jpeg)
+## Architecture Design
+![Architecture Design](./images/assignment3_arch_dig.jpg)
+
 ## Prerequisites
 - VirtualBox 6.1+ or VMware Workstation/Player
-- Ubuntu 22.04 LTS ISO
+- Ubuntu 24.04 LTS ISO
 - OCI account with proper permissions
 - OCI CLI installed and configured
 - Host machine with at least 4GB RAM and 20GB free disk space
@@ -17,14 +22,14 @@ Create a local VM and implement a mechanism to monitor resource usage. Configure
 
 ### 1.1 Create a VM in VirtualBox
 
-1. Download Ubuntu 22.04 LTS ISO from the official website
+1. Download Ubuntu 24.04 LTS ISO from the official website
 2. Open VirtualBox and click "New"
 3. Configure the VM:
    - Name: Ubuntu
    - Type: Linux
    - Version: Ubuntu (64-bit)
    - Memory: 4096 MB
-   - Create a virtual hard disk: 20 GB (VDI, dynamically allocated)
+   - Create a virtual hard disk: 25 GB (VDI, dynamically allocated)
 4. Configure VM settings:
    - System > Processor: 3 CPUs
    - Display > Video Memory: 128 MB
@@ -229,5 +234,5 @@ Make the script executable:
 
 1. Goto OCI console terminate test instances when done.
 
-## Architecture Design
-![Architecture Design](./images/m23csa508_vcc_assignment.jpeg)
+
+
