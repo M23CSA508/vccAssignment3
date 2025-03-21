@@ -224,6 +224,6 @@ Make the script executable:
 1. Goto OCI console terminate test instances when done.
 
 ## Demo 
-[Demo](https://youtu.be/1ddGYYuDcAA){:target="_blank"}
+[Demo](https://youtu.be/1ddGYYuDcAA)
 
 
