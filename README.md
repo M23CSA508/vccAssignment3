@@ -189,17 +189,11 @@ Make the script executable:
 
 ### 4.1 Create a Load-Generating Test Application
 
-1. Create a directory for the sample application:
-   ```bash
-   mkdir -p ~/sample-app
-   cd ~/sample-app
-   ```
-
-2. Create a script to generate load:
+1. Create a script to generate load:
    ```bash
    stress-ng --cpu $(nproc) --cpu-load 90 --timeout 30s
    ```
-
+   
 ### 4.3 Test the Auto-Scaling Process
 
 1. Run the monitoring script:
