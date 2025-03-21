@@ -229,4 +229,5 @@ Make the script executable:
 
 1. Goto OCI console terminate test instances when done.
 
-![Auto-Scaling Architecture](images/m23csa508_vcc_assignment.svg)
+## Architecture Design
+![Architecture Design](./images/m23csa508_vcc_assignment.jpeg)
